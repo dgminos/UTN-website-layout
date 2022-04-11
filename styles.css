@@ -38,7 +38,9 @@
   }
 
 .logo {
-  max-width: 268px;
+  display: flex;
+  font-size: 10px;
+  width: 268px;
 }
 
 .custom-cart {
@@ -89,7 +91,7 @@ z-index: 1;
 }
 
 .row-banner-img {
-    height: 100%;
+    height: 300px;
 }
 
 .banner-text {
@@ -107,29 +109,51 @@ z-index: 1;
     font-weight: 600;  
 }
 
+.middle-page-container {
+    width: 100%;
+    height: 350px;
+}
 
-.row-center{
+
+#row-middle-page {
     width: 100%;
 }
 
-.one-column{
-    display: flex;
+.col-middle-page {
+    width: 100%;
     flex-direction: column;
+    justify-content: center;
 }
 
-.row-navigation-buttons{
-    justify-content: center;
-    margin: 10px;
+.middle-page-buttons{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: none;
+    color: #000 !important;
+}
+
+.middle-page-buttons button {
+    font-size: 13px;
+    letter-spacing: 8px;
+    line-height: 1.9em;
+    text-transform: none;
+    padding: 15px 20px;
 }
 
 .navigation-buttons{
     width: 60%;
-    display: flex;
+    width: 100%;
     justify-content: space-evenly;
+    padding: 20px 0px;
+    border: none;
 }
 
 .row-navigation-buttons button {
     font-size: 13px;
+    background-color: #000;
     letter-spacing: 8px;
     line-height: 1.9em;
     text-transform: none;
@@ -142,11 +166,21 @@ z-index: 1;
     border: none;
     color: #000;
     background-color: #000;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 300px;
 }
 
--contact-container {
+.contact-container {
     width: 100vh;
     height: 350px;
+}
+
+@media (max-width: 768px) { 
+    .middle-page-buttons{
+        flex-direction: column;
+        padding: 0px;
+        height: 200px;
+        
+    }
 }
