@@ -196,21 +196,26 @@ z-index: 1;
 }
 
 .contact-text .benefits h2{
-    color: #333;
+    /* color: #333; */
+    color: rgba(73, 72, 72, 0.9);
     font-size: 20px !important;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     line-height: 40px;
 }
 
 .benefits h2 {
-    font-weight: 400;  
+    font-weight: 600;  
 }
 
 .benefits-p p, .form-label{
     font-style: normal;
     font-weight: lighter;
-    color: rgb(73, 72, 72);
+    color: rgba(73, 72, 72, 0.8);
     font-size: 15px;
+}
+
+.benefits-p {
+    line-height: 30px;
 }
 
 .form-select {
@@ -246,6 +251,40 @@ input[type="text"], select {
     padding: 5px;
   }
 
+  .footer-container {
+      background-color: #f8f9fa!important;
+      /* width: 1200px;
+      height: 1200px;
+      margin-top: auto; */
+      /* flex-wrap: wrap; */
+      /* align-items: stretch; */
+  }
+
+  .row-footer {
+      padding-top: 35px;
+      /* background-color: aqua; */
+  }
+
+  .row-footer span {
+      /* width: 100%; */
+      font-weight: bold;
+      /* flex-wrap: wrap; */
+      /* justify-content: space-around; */
+}
+
+   /* .footer-container {
+       display: flex;
+  } */
+
+  .info p, .social p, .careers p, .contact-us p  {
+      font-size: 11px;
+      color: #333;
+  }
+  .copyright {
+      font-size: 11px;
+      color: #757575;
+  }
+
 @media (max-width: 816px) { 
     .middle-page-buttons{
         flex-direction: column;
@@ -255,5 +294,35 @@ input[type="text"], select {
     .line {
         margin-top: 230px;
         
+    }
+}
+
+@media (max-width: 970px) { 
+    .footer-container {
+        margin-top: 150px;
+    }   
+}
+
+@media (max-width: 770px) { 
+    .footer-container {
+        margin-top: 450px;
+    }
+}
+
+@media (max-width: 770px) { 
+    .footer-container {
+        margin-top: 650px;
+    }
+}
+
+@media (max-width: 972px) { 
+    .info, .social {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 760px) { 
+    .careers {
+        margin-bottom: 50px;
     }
 }
