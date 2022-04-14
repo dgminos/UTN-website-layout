@@ -91,13 +91,6 @@ z-index: 1;
 }
 
 .banner-text {
-    /* background-color: rgb(146, 146, 226); */
-    position: absolute;
-   bottom: 250px;
-   left: 280px;
-}
-
-.banner-text {
     width: 90%;
     height: 300px;
     color: #080808;
@@ -106,8 +99,8 @@ z-index: 1;
     line-height: 1.9em;
     text-transform: none;
     position: absolute;
-    bottom: 250px;
-    left: 280px;
+    bottom: 260px;
+    left: 250px;
 }
 
 .banner-text h1 {
@@ -117,13 +110,16 @@ z-index: 1;
 
 .row-banner-img {
     height: 300px;
-    /* background-color: rgb(175, 82, 82); */
 }
 
 .banner-img {
   position: absolute;
   bottom: 80px;
   left: 1000px;
+}
+
+.hero-img {
+    opacity: 0.8;
 }
 
 .middle-page-container {
@@ -194,7 +190,6 @@ z-index: 1;
     box-sizing: content-box;
 }
 
-
 .contact-container {
     width: 100%;
     height: 470px;
@@ -212,7 +207,6 @@ z-index: 1;
 }
 
 .contact-text .benefits h2{
-    /* color: #333; */
     color: rgba(73, 72, 72, 0.9);
     font-size: 20px !important;
     letter-spacing: 8px;
@@ -286,6 +280,60 @@ input[type="text"], select {
   .copyright {
       font-size: 11px;
       color: #757575;
+  }
+
+  @media (max-width: 776px) {
+    .banner-text h1{
+        display: none;
+    }
+  }
+
+  @media (min-width: 1224px) and (max-width: 1324px) {
+    .banner-img {
+        left: 950px;
+    }
+  } 
+  
+  @media (min-width: 1224px) and (max-width: 1274px) {
+    .banner-img {
+        left: 900px;
+    }
+  } 
+
+  @media (min-width: 1172px) and (max-width: 1224px) {
+    .banner-img {
+        left: 850px;
+    }
+  } 
+
+  @media (min-width: 1124px) and (max-width: 1172px) {
+    .banner-img {
+        left: 800px;
+    }
+  } 
+
+  @media (min-width: 1024px) and (max-width: 1124px) {
+    .banner-img {
+        left: 700px;
+    }
+  } 
+
+  @media (min-width: 990px) and (max-width: 1024px) {
+    .banner-img {
+        left: 600px;
+    }
+  }
+
+  @media (min-width: 828px) and (max-width: 990px) {
+    .banner-img {
+        left: 500px;
+    }
+  }
+
+  @media (min-width: 776px) and (max-width: 828px) {
+    .banner-img {
+        left: 250px;
+    }
   }
 
 @media (max-width: 816px) { 
