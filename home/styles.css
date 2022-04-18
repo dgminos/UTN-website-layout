@@ -5,6 +5,13 @@
 
   body {
     font-family: 'Gill Sans Nova', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .05em;
+    line-height: 1.9em;
+    text-transform: none;
+    color: #000;
   }
   
   .navbar {
@@ -277,6 +284,7 @@ input[type="text"], select {
       font-size: 11px;
       color: #333;
   }
+
   .copyright {
       font-size: 11px;
       color: #757575;
@@ -344,7 +352,6 @@ input[type="text"], select {
     }
     .line {
         margin-top: 230px;
-        
     }
 }
 
