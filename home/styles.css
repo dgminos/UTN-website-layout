@@ -280,10 +280,21 @@ input[type="text"], select {
       font-weight: bold;
 }
 
-  .info p, .social p, .careers p, .contact-us p  {
+  .info a, .social a, .careers a, .contact-us a  {
       font-size: 11px;
       color: #333;
+      text-decoration: none;
   }
+
+  .footer-link a:hover {
+    color: rgb(138, 135, 135);
+    text-decoration: none;
+    -webkit-transition: color .15s ease-out;
+    -moz-transition: color .15s ease-out;
+    -ms-transition: color .15s ease-out;
+    -o-transition: color .15s ease-out;
+    transition: color .15s ease-out;
+  } 
 
   .copyright {
       font-size: 11px;
