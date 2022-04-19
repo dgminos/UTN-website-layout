@@ -2,6 +2,16 @@
     display: block;
     width: 70%;
     min-height: 900px;
+    animation: anim-opacity-full 480ms ease-out;
+}
+
+@keyframes anim-opacity-full {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
 }
 
 .shipping-col {
