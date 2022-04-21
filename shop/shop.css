@@ -1,0 +1,33 @@
+.shop-container {
+    width: 100%;
+    min-height: 1500px;
+    margin-top: 200px;
+   
+}
+
+.shop-text {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.shop-text h2 {
+    color: #333;
+    font-family: 'Gill Sans Nova', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: .35em;
+    line-height: 1.26em;
+    text-transform: none;
+}
+
+.shop-text p {
+    font-family: 'Gill Sans Nova', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .05em;
+    line-height: 1.9em;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.7);
+}
