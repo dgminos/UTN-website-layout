@@ -15,12 +15,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
- -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    /> -->
     <link
       rel="stylesheet"
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
@@ -62,7 +56,6 @@
             <a class="nav-link" href="#">NEWS</a>
             <a class="nav-link custom-cart" href="#">
               <span class="cart-inner">
-                <!-- <i class="bi bi-cart2"></i> -->
                 <i class="bi bi-cart2 icon-cart"></i>
                 <span class="cart-quantity">0</span>
               </span>
@@ -95,25 +88,27 @@
     </div>
     <div class="container shop-container-cards mb-5">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <div class="col mb-5">
           <div class="card-header bg-transparent">ESPRESSO - ETHIOPIA</div>
-          <div class="card">
-            <a href="#">
-              <img
-                src="../shop/img/espresso-ethiopia.jpg"
-                class="card-img-top"
-                alt="espresso Ethiopia"
-              />
-            </a>
-            <div class="quick-vew-button d-none">
-              <button>Quick View</button>
+          <div class="card h-100">
+            <div class="product">
+              <a href="#">
+                <img
+                  src="../shop/img/espresso-ethiopia.jpg"
+                  class="card-img-top"
+                  alt="espresso Ethiopia"
+                />
+                <div class="product-mark-sold-out">Sold Out</div>
+              </a>
+              <div class="quick-view-button d-none">
+                <button>Quick View</button>
+              </div>
             </div>
             <div class="card-body">
               <a href="#">
                 <h5 class="card-title">Natural Pilgrim</h5>
               </a>
               <p class="card-text">£ 9.50</p>
-              <!-- <span>Grind:</span> -->
               <label for="selectGrindOptions" class="form-label">Grind:</label>
               <select class="form-select" id="select-ethiopia">
                 <option selected disabled value="">Select Grind</option>
@@ -130,7 +125,7 @@
                 </option>
               </select>
               <br />
-              <span>Sold Out</span>
+              <span class="sold-out">Sold Out</span>
               <br />
               <div class="subscribe-button d-flex mt-3">
                 <button
@@ -144,9 +139,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col mb-5">
           <div class="card-header bg-transparent">ESPRESSO - BLEND</div>
-          <div class="card">
+          <div class="card h-100">
             <a href="#">
               <img
                 src="../shop/img/espresso-blend.jpg"
@@ -154,7 +149,7 @@
                 alt="espresso blend"
               />
             </a>
-            <div class="quick-vew-button d-none">
+            <div class="quick-view-button d-none">
               <button>Quick View</button>
             </div>
             <div class="card-body">
@@ -172,7 +167,7 @@
                 <option value="Cafetiere">Cafetiere</option>
               </select>
               <br />
-              <div class="quantity div">
+              <div class="quantity-div">
                 <span>Quantity:</span>
                 <br />
                 <div>
@@ -195,9 +190,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col mb-5">
           <div class="card-header bg-transparent">DECAF - SINGLE ORIGIN</div>
-          <div class="card">
+          <div class="card h-100">
             <a href="#">
               <img
                 src="../shop/img/decaf-colombia.jpg"
@@ -205,7 +200,7 @@
                 alt="decaf Colombia"
               />
             </a>
-            <div class="quick-vew-button d-none">
+            <div class="quick-view-button d-none">
               <button>Quick View</button>
             </div>
             <div class="card-body">
@@ -223,7 +218,7 @@
                 <option value="Espresso">Espresso</option>
               </select>
               <br />
-              <div class="quantity div">
+              <div class="quantity-div">
                 <span>Quantity:</span>
                 <br />
                 <div>
@@ -246,18 +241,21 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col mb-5">
           <div class="card-header bg-transparent">FILTER - SINGLE ORIGIN</div>
-          <div class="card">
-            <a href="#">
-              <img
-                src="../shop/img/the-hype-colombia.jpg"
-                class="card-img-top"
-                alt="the hype Colombia"
-              />
-            </a>
-            <div class="quick-vew-button d-none">
-              <button>Quick View</button>
+          <div class="card h-100">
+            <div class="product">
+              <a href="#">
+                <img
+                  src="../shop/img/the-hype-colombia.jpg"
+                  class="card-img-top"
+                  alt="the hype Colombia"
+                />
+                <div class="product-mark-sold-out">Sold Out</div>
+              </a>
+              <div class="quick-view-button d-none">
+                <button>Quick View</button>
+              </div>
             </div>
             <div class="card-body">
               <a href="#">
@@ -280,7 +278,7 @@
                 <option value="Espresso (Sold Out)">Espresso (Sold Out)</option>
               </select>
               <br />
-              <span>Sold Out</span>
+              <span class="sold-out">Sold Out</span>
               <br />
               <div class="subscribe-button d-flex mt-3">
                 <button
@@ -294,9 +292,9 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col mb-5">
           <div class="card-header bg-transparent">FILTER - SINGLE ORIGIN</div>
-          <div class="card">
+          <div class="card h-100">
             <a href="#">
               <img
                 src="../shop/img/showstopper-congo.png"
@@ -304,7 +302,7 @@
                 alt="showstopper Congo"
               />
             </a>
-            <div class="quick-vew-button d-none">
+            <div class="quick-view-button d-none">
               <button>Quick View</button>
             </div>
             <div class="card-body">
@@ -322,7 +320,7 @@
                 <option value="Espresso">Espresso</option>
               </select>
               <br />
-              <div class="quantity div">
+              <div class="quantity-div">
                 <span>Quantity:</span>
                 <br />
                 <div>
