@@ -1,3 +1,17 @@
+.shop-container-header, .shop-container-cards {
+    animation: anim-opacity-full 480ms ease-out;
+}
+
+@keyframes anim-opacity-full {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+}
+
+
 .shop-container-header {
     width: 100%;
     min-height: 350px;
