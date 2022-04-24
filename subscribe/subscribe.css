@@ -1,0 +1,77 @@
+.subscribe-container {
+    width: 100%;
+    min-height: 1200px;
+    margin-top: 200px;
+}
+
+.subscribe-text h2 {
+    color: #333;
+    font-family: 'Gill Sans Nova', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: .35em;
+    line-height: 1.26em;
+    text-transform: none;
+}
+
+.subscribe-text p {
+    font-family: 'Gill Sans Nova', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .05em;
+    line-height: 1.9em;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+blockquote {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: .05em;
+    line-height: 1.3em;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+figcaption {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .05em;
+    line-height: 1.35em;
+    text-transform: none;
+}
+
+.middle-page-buttons button {
+    font-size: 10px;
+    /* letter-spacing: 8px;
+    line-height: 1.9em; */
+    /* text-transform: none; */
+    padding: 15px 20px;
+    background-color: #000;
+}
+
+.line {
+    height: 2px;
+    color: #000 !important;
+   background-color: #000;
+}
+
+strong a {
+    text-decoration-color: rgb(159, 158, 158);
+    color: #000;
+}
+
+strong a:hover {
+    color: rgb(114, 112, 112);
+}
+
