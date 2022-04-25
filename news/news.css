@@ -1,0 +1,145 @@
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    min-height: 1500px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 175px; 
+    background-color: #e2dddd
+}
+
+.carnaby {
+    font-weight: bold;
+    text-align: center;
+}
+
+.news-line {
+    height: 3px;
+    color: #000 !important;
+    background-color: #000;
+}
+
+.opnening p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* .card {
+    max-width: 350px;
+    max-height: 250px;
+} */
+
+#coffee-machine {
+    max-height: 330;
+}
+
+.carnaby p {
+    line-height: 30px;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.middle-page-buttons button {
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding: 0px 70px;
+    background-color: #000;
+}
+
+.contact-container {
+    min-height: 550px;
+    margin-bottom: 100px;
+}
+
+/* @media (max-width: 768px) {
+    .news-container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .middle-page-buttons {
+        height: 85px;
+      }
+  } */
+
+  @media (max-width: 816px) {
+    .news-container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .middle-page-buttons {
+        height: 80px;
+      }
+  }
+
+  @media (max-width: 556px) {
+    .middle-page-buttons button{
+        font-size: 15px;
+      }
+  }
+
+@media (max-width: 1172px) {
+    .contact-container{
+        min-height: 600px;
+    }
+    .contact-row {
+        margin: 20px 0px;
+        min-height: 600px;
+      }
+  }
+
+  @media (max-width: 992px) {
+    .contact-container{
+        min-height: 800px;
+    }
+    .contact-row {
+        margin: 5px 0px;
+        min-height: 800px;
+      }
+  }
+
+  @media (max-width: 868px) {
+    .contact-container{
+        min-height: 900px;
+    }
+    .contact-row {
+        margin: 5px 0px;
+        min-height: 900px;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .contact-container{
+        min-height: 1000px;
+    }
+    .contact-row {
+        margin: 5px 0px;
+        min-height: 1000px;
+      }
+  }
+
+  @media (max-width: 568px) {
+    .contact-container{
+        min-height: 1100px;
+    }
+    .contact-row {
+        margin: 5px 0px;
+        min-height: 1100px;
+      }
+  }
+
+  @media (max-width: 402px) {
+    .contact-container{
+        min-height: 1300px;
+    }
+    .contact-row {
+        margin: 5px 0px;
+        min-height: 1300px;
+      }
+  }
+
+
+
