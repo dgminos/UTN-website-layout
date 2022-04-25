@@ -1,7 +1,10 @@
 .subscribe-container {
+    flex-direction: column;
     width: 100%;
     min-height: 1200px;
     margin-top: 200px;
+    margin-bottom: 100px;
+    align-content: center;
 }
 
 .subscribe-text h2 {
@@ -30,6 +33,28 @@
     padding-left: 60px;
 }
 
+.subscribe-banner {
+    text-align: center !important;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.subscribe-banner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0,0,0,.5);
+    font-family: 'Arial';
+    font-style: normal;
+    letter-spacing: .02em;
+    text-transform: none;
+    line-height: 1.6em;
+}
+
 blockquote {
     font-family: 'Lato';
     font-weight: 300;
@@ -53,9 +78,6 @@ figcaption {
 
 .middle-page-buttons button {
     font-size: 10px;
-    /* letter-spacing: 8px;
-    line-height: 1.9em; */
-    /* text-transform: none; */
     padding: 15px 20px;
     background-color: #000;
 }
@@ -63,7 +85,7 @@ figcaption {
 .line {
     height: 2px;
     color: #000 !important;
-   background-color: #000;
+    background-color: #000;
 }
 
 strong a {
@@ -75,3 +97,42 @@ strong a:hover {
     color: rgb(114, 112, 112);
 }
 
+@media (max-width: 992px) {
+    .subscribe-banner p {
+        font-size: 20px;
+    }
+    .subscribe-text p {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+  }
+
+  @media (max-width: 816px) {
+      .middle-page-buttons {
+          height: 0;
+      }
+      .line {
+        margin-top: 60px;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .subscribe-banner p {
+        font-size: 15px;
+    }
+    .footer-container {
+        margin-top: 100px;
+      }
+  }
+
+  @media (max-width: 454px) {
+    .subscribe-banner p {
+        font-size: 12px;
+    } 
+  }
+
+  @media (max-width: 362px) {
+    .subscribe-banner p {
+        font-size: 10px;
+    } 
+  }
