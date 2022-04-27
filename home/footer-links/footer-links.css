@@ -1,4 +1,4 @@
-.shipping, .privacy-policy {
+.shipping, .privacy-policy, .terms-and-conditions {
     display: block;
     width: 70%;
     min-height: 900px;
@@ -14,16 +14,16 @@
       }
 }
 
-.shipping-col, .privacy-policy-col {
+.shipping-col, .privacy-policy-col, .terms-and-conditions-col {
     margin-top: 100px;
 }
 
-.shipping-content, .privacy-policy-content {
+.shipping-content, .privacy-policy-content, .terms-and-conditions-content {
     justify-content: flex-start;
     padding: 0px 50px;
 }
 
-.shipping-content p, .privacy-policy-content p {
+.shipping-content p, .privacy-policy-content p, .terms-and-conditions-content p {
     font-family: 'Gill Sans Nova', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -59,19 +59,19 @@ strong a:hover, p a:hover {
 }
 
 @media (max-width: 620px) {
-    .shipping, .privacy-policy{
+    .shipping, .privacy-policy, .terms-and-conditions{
   width: 90%;
     }
   }
 
   @media (max-width: 444px) {
-    .shipping, .privacy-policy{
+    .shipping, .privacy-policy, .terms-and-conditions{
   width: 100%;
     }
   }
 
   @media (max-width: 392px) {
-    .shipping.title, .privacy-policy.title {
+    .shipping.title, .privacy-policy.title, .terms-and-conditions {
        display: flex;
     }
      h1 {
