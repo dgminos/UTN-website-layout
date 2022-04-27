@@ -49,12 +49,12 @@ p strong {
     font-weight: bold;
 }
 
-strong a {
+strong a, p a {
   text-decoration-color: rgb(159, 158, 158);
   color: #000;
 }
 
-strong a:hover {
+strong a:hover, p a:hover {
   color: rgb(114, 112, 112);
 }
 
