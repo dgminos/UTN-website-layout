@@ -1,4 +1,4 @@
-.shipping {
+.shipping, .privacy-policy {
     display: block;
     width: 70%;
     min-height: 900px;
@@ -14,16 +14,16 @@
       }
 }
 
-.shipping-col {
+.shipping-col, .privacy-policy-col {
     margin-top: 100px;
 }
 
-.shipping-content {
+.shipping-content, .privacy-policy-content {
     justify-content: flex-start;
     padding: 0px 50px;
 }
 
-.shipping-content p {
+.shipping-content p, .privacy-policy-content p {
     font-family: 'Gill Sans Nova', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -49,20 +49,29 @@ p strong {
     font-weight: bold;
 }
 
+strong a {
+  text-decoration-color: rgb(159, 158, 158);
+  color: #000;
+}
+
+strong a:hover {
+  color: rgb(114, 112, 112);
+}
+
 @media (max-width: 620px) {
-    .shipping{
+    .shipping, .privacy-policy{
   width: 90%;
     }
   }
 
   @media (max-width: 444px) {
-    .shipping{
+    .shipping, .privacy-policy{
   width: 100%;
     }
   }
 
   @media (max-width: 392px) {
-    .shipping.title {
+    .shipping.title, .privacy-policy.title {
        display: flex;
     }
      h1 {
