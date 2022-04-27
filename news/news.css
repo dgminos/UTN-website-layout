@@ -7,7 +7,17 @@
     padding-right: 100px;
     padding-left: 100px;
     margin-top: 175px; 
-    background-color: #e2dddd
+    background-color: rgba(230,231,232,1);
+    animation: anim-opacity-full 480ms ease-out;
+}
+
+@keyframes anim-opacity-full {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
 }
 
 .carnaby {
