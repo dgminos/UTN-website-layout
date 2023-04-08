@@ -61,12 +61,12 @@ strong a:hover, p a:hover {
 .jobs-img-container {
     width: 100%;
     min-height: 260px;
-    margin-top: 120px;
-    background: url(../../home/footer-links/img/jobs-upper-img.jpg);
+    margin-top: 93px;
+    background: url(../footer-links/img/jobs-upper-img.jpg);
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     animation: anim-opacity-full 480ms ease-out;
 }
 
@@ -129,6 +129,7 @@ h5 {
 
 .working, .what-you-get {
   padding: 0px 100px;
+  margin-bottom: 50px;
 }
 
 .cards-container {
@@ -137,12 +138,28 @@ h5 {
 }
 
 .jobs-card img {
-  opacity: 0.4;
+  opacity: 0.8;
 }
+
+.our-roles {
+  font-size: 12px;
+  padding: 12px 25px;
+  border-radius: 0%;
+}
+
+  .apply {
+    background: rgba(0, 0, 0, 0.5);
+  }
 
 @media (max-width: 992px) {
   .working, .what-you-get {
     padding: 0px 50px;
+  }
+}
+
+@media (max-width: 970px) {
+  .what-you-get {
+    margin-bottom: -50px;
   }
 }
 

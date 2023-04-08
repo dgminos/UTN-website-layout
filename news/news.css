@@ -36,11 +36,6 @@
     padding-right: 100px;
 }
 
-/* .card {
-    max-width: 350px;
-    max-height: 250px;
-} */
-
 #coffee-machine {
     max-height: 330;
 }
@@ -64,16 +59,6 @@
     min-height: 550px;
     margin-bottom: 100px;
 }
-
-/* @media (max-width: 768px) {
-    .news-container {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    .middle-page-buttons {
-        height: 85px;
-      }
-  } */
 
   @media (max-width: 816px) {
     .news-container {
